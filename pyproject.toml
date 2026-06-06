@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "computer-vision-analytics"
+version = "1.0.0"
+description = "High-performance object detection and tracking analytics pipeline for real-time video security feeds."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pytest>=7.0.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
